@@ -10,7 +10,8 @@ let array2 = [100, 200, 300, 400];
  * 40 100
  */
 
-document.write(` ${array1[0]} ${array2[3]} <br>`);
-document.write(` ${array1[1]} ${array2[2]} <br>`);
-document.write(` ${array1[2]} ${array2[1]} <br>`);
-document.write(` ${array1[3]} ${array2[0]} <br>`);
+array2.reverse();
+for ( let i in array1){
+   document.write(`${array1[i]} ${array2[i]}<br>`);
+}
+

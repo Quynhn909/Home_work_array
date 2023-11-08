@@ -2,8 +2,13 @@
 let array1 = ["M", "na", "i", "Ke"];
 let array2 = ["y", "me", "s", "lly"];
 
-// let array3 = ;
-const array3 = array1.concat(array2);
+let array3 = [];
+// const array3 = array1.concat(array2);
+
+for (let i = 0; i < array1.length; i++){
+   array3.push( array1[i] + array2[i])
+}
+
 
 
 console.log(array3);  // Output: ['My', 'name', 'is', 'Kelly']

@@ -8,6 +8,8 @@ aList[3] = "200";
 aList[4] = "100";
 document.write('<br></br>');
 
+// aList.reverse();
 
-console.log(`${aList}`);
+console.log(aList);
 // Output: [500, 400, 300, 200, 100]
+

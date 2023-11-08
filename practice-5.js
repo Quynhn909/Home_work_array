@@ -2,10 +2,10 @@
 let array1 = [5, 10, 15, 20, 25, 50, 20];
 let total = 0;
 
-for (i = array1; i < 25; i +=5){
-    if(i - 20 == 0){
-        
-        total = i;
+for (let i = 0; i < array1.length; i++) {
+  if (array1[i] === 20) {
+    total++;
+  }
     }
-}
+
 console.log(total); // Output: 2
